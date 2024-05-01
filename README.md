@@ -40,3 +40,17 @@ To run the project locally, follow these steps:
 Clone the repository: git clone {repo}
 Install dependencies: npm install
 Start the development server: npm start
+
+![Screenshot 2024-05-01 125824](https://github.com/farhatrkhalil/ElectroBazaar/assets/100374222/f0177faf-eb41-4937-b891-9f56b45b47d8)
+
+![Screenshot 2024-04-23 131459](https://github.com/farhatrkhalil/ElectroBazaar/assets/100374222/a450d18f-8ca3-4a8b-9a2f-9be704930c7a)
+
+![Screenshot 2024-04-23 131539](https://github.com/farhatrkhalil/ElectroBazaar/assets/100374222/f566811d-58da-4f28-afcb-0420cd13068d)
+
+![Screenshot 2024-04-23 132006](https://github.com/farhatrkhalil/ElectroBazaar/assets/100374222/9bd1aa3c-7343-4e1c-9956-62345734b478)
+
+![Screenshot 2024-04-23 132038](https://github.com/farhatrkhalil/ElectroBazaar/assets/100374222/ff8254d1-56d3-43d8-980f-91987310b578)
+
+
+
+
