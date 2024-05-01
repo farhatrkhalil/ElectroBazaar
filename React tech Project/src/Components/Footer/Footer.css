@@ -1,0 +1,146 @@
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: 0;
+    }
+
+    .Footer-root {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+    .Footer-section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 25px;
+        padding: 15px 0;
+        overflow-x: visible;
+        margin: 0 8px;
+        min-width: 130px;
+    }
+
+    #Footer-Social div {
+        flex-direction: row;
+    }
+
+    #Footer-Social div div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Footer-section p {
+        word-wrap: break-word;
+        line-height: 1.8rem;
+    }
+
+    .Footer-store {
+        width: 100px;
+        height: auto;
+    }
+
+    .Footer-section div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        overflow-x: visible;
+    }
+
+    .Footer-section input {
+        padding: 10px;
+        border: #fff 2px solid;
+        border-radius: 10px;
+        background-color: #000;
+        color: #fff;
+        width: 190px;
+    }
+
+    .Footer-section .App-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Footer-section form {
+        overflow-x: visible;
+        position: relative;
+    }
+
+    .Footer-section form svg {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .Footer-head {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    .Footer-section .Social-Media {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .Footer-section .Social-Media img {
+        width: 30px;
+        height: auto;
+    }
+
+    @media screen and (max-width:600px) {
+        .Footer-root {
+            gap: 10px;
+            font-size: 0.9rem;
+        }
+
+        .Footer-section {
+            margin: 10px 20px;
+            align-items: center;
+        }
+
+        .Footer-section div {
+            align-items: center;
+        }
+    }
+
+    .Footer-store {
+        width: 125px;
+        border-radius: 2px;
+        height: auto;
+    }
+
+    .Footer-section a {
+        position: relative;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .Footer-section a::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: #fff;
+        bottom: 0;
+        left: 0;
+        transition: width 0.3s ease;
+    }
+
+    .Footer-section a:hover::before {
+        width: 100%;
+    }

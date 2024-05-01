@@ -1,0 +1,114 @@
+#Contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    overflow: visible;
+    margin: 50px 0;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+}
+
+.ContactInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ContactInfo .Contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.ContactInfo .Contact-info div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.ContactInfo img {
+    width: 40px;
+    height: 40px;
+}
+
+.SendMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.SendMessage div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    overflow: visible;
+    flex-wrap: wrap;
+}
+
+.SendMessage input {
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    background-color: #F5F5F5F5;
+    border: none;
+    min-width: 240px;
+    width: 100%;
+    max-width: 240px;
+    border: 1px solid rgb(35, 33, 33);
+}
+
+.SendMessage .message-input {
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    width: 100%;
+    resize: none;
+    overflow: auto;
+}
+
+.SendMessage button {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+}
+
+@media screen and (max-width:1336px) {
+    .ContactInfo {
+        width: 99%;
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .ContactInfo {
+        font-size: smaller;
+    }
+    .SendMessage a {
+        font-size: smaller;
+    }
+}

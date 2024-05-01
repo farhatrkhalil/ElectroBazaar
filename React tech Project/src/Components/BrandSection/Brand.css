@@ -1,0 +1,46 @@
+.categories-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 30px 0 40px;
+}
+
+.categories-container img {
+    max-width: 70px;
+    height: auto;
+    max-height: 30px;
+    transition: .3s ease;
+}
+
+.Brandcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px 10px;
+    min-width: 120px;
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.Brandcard:hover {
+    transform: scale(0.95);
+    transition: .3s ease;
+    border-color: rgb(220, 123, 123);
+}
+
+.Brandcard:hover img {
+    transform: scale(1.3);
+    transition: .3s ease;
+}
+
+.categories-container a {
+    display: flex;
+    overflow: visible;
+}

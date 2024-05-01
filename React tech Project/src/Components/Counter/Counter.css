@@ -1,0 +1,39 @@
+#CounterContainer {
+    border-radius: 5px;
+    font-size: 1.3rem;
+    min-width: 90px;
+    max-width: 120px;
+    flex: 2;
+}
+
+#CounterContainer .counter {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    overflow: visible;
+}
+
+#CounterContainer .counter span {
+    padding: 5px;
+    width: 40%;
+}
+
+#CounterContainer .counter span:last-child {
+    background-color: #DB4444;
+    color: #fff;
+    border: #DB4444 solid 1px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#CounterContainer .counter span:nth-child(1) {
+    border: #808080 solid 1px;
+    border-radius: 5px 0 0 5px;
+}
+
+#CounterContainer .counter p {
+    border-top: #808080 solid 1px;
+    border-bottom: #808080 solid 1px;
+    width: 100%;
+    padding: 5px;
+}

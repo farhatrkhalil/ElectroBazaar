@@ -1,0 +1,250 @@
+.settings-container .pt-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    overflow: visible;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.settings-container p {
+    text-wrap: wrap;
+}
+
+.settings-container input {
+    border: #454545 solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.settings-container .pt-1 div {
+    display: flex;
+    justify-content: stretch;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+}
+
+@media screen and (max-width:599px) {
+    .settings-container .pt-1 div {
+        align-items: center;
+    }
+    .settings-container .pt-1 {
+        justify-content: center;
+    }
+}
+
+.pt-1 .imgcontainer {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    min-height: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.settings-container .imgcontainer div {
+    border: 2px solid gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-container .imgcontainer p {
+    font-size: 2rem;
+}
+
+.settings-container .imgcontainer button {
+    padding: 8px 10px;
+    color: #2e2e2e;
+    border-radius: 10px;
+    border: none;
+    align-self: center;
+    transition: .3s ease;
+}
+
+.settings-container .imgcontainer button:hover {
+    transform: scale(0.95);
+    transition: .3s ease;
+}
+
+.page-title {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+@media screen and (max-width:450px) {
+    .page-title {
+        font-size: 20px;
+    }
+}
+
+.generalInfo-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 30px;
+    width: 100%;
+}
+
+.settings-page {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.settings-container {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.settings-title {
+    color: #454545;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.settings-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top: 2px solid #454545;
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Changepass {
+    padding: 10px;
+    background-color: crimson;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    width: 250px;
+    justify-self: center;
+}
+
+.Changepass:last-child {
+    background-color: #000;
+}
+
+
+/* Admin Section */
+
+.Productfield {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.settings-container select {
+    width: 100%;
+    min-width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.viewadded {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.viewadded h3 {
+    font-size: 1.5rem;
+}
+
+.viewadded div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.addProduct {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2e2e2e;
+    color: aliceblue;
+    width: 150px;
+    transition: .3s ease;
+}
+
+.addProduct:hover {
+    transform: scale(0.95);
+    transition: .3s ease;
+}
+
+.selctedcat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.selctedcat p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.keycatselect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.keycatselect div {
+    border: #454545 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.settings-container .close {
+    height: 15px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.settings-container.close:hover {
+    transition: .3s ease;
+    transform: scale(1.2);
+}
+
+.settings-container label {
+    display: block;
+    margin-bottom: 10px;
+}

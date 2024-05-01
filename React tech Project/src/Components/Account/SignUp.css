@@ -1,0 +1,261 @@
+.sign-up-container {
+    display: flex;
+    justify-content: flex-start;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.image-container {
+    width: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 50px 0;
+    max-height: 50%;
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    height: 100%;
+}
+
+.form-container {
+    text-align: left;
+    margin: 50px auto;
+    overflow: visible;
+    text-align: center;
+    max-width: 370px;
+    height: min-content;
+}
+
+.form-container h4 {
+    margin: 0;
+    text-align: start;
+}
+
+.form-container button {
+    text-align: center;
+    margin: 2% 0;
+    border-radius: 9px;
+    width: 100%;
+}
+
+.form-container input {
+    padding: 10px;
+    border-radius: 9px;
+    width: 100%;
+    border: 2px solid grey;
+    margin: 15px 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-container input[type="checkbox"] {
+    border-radius: 9px;
+    cursor: pointer;
+    max-width: min-content;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: lightgrey;
+    margin: 0 10px;
+}
+
+.or {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.social-buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    overflow-x: visible;
+}
+
+.sign-up-button {
+    width: 96%;
+    border-radius: 9px;
+    background-color: #3A5B22;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 10px 0;
+}
+
+.google-button,
+.meta-button,
+.microsoft-button {
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+    border: 2px solid #000;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.google-button img,
+.meta-button img,
+.microsoft-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    padding: 0.2rem;
+}
+
+.haveAnAccount a {
+    text-decoration: none;
+    color: blue;
+    transition: .3s ease;
+}
+
+.haveAnAccount {
+    text-align: center;
+    padding: 1rem 0.5rem;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.haveAnAccount:hover a {
+    text-decoration: underline;
+    transition: .3s ease;
+}
+
+@media (max-width: 800px) {
+    .image-container {
+        display: none;
+    }
+    .form-container {
+        width: 60%;
+        margin: auto;
+        padding: 2rem 0;
+    }
+    .form-container h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .social-buttons {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin-top: 2rem;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .form-container input {
+        font-size: .8rem;
+    }
+    .google-button,
+    .apple-button {
+        font-size: smaller;
+    }
+    .agreelabel {
+        font-size: smaller;
+        flex: 2;
+        text-align: start;
+    }
+}
+
+.terms-checkbox a {
+    color: blue;
+}
+
+.terms-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.passeye {
+    height: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.hidehint {
+    display: none;
+    transition: display .3 ease;
+}
+
+.showhint {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    gap: 15px;
+    overflow: visible;
+    font-size: .9rem;
+    list-style: circle;
+    transition: display .3 ease;
+    margin: 10px 0;
+}
+
+.passcontainer h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-container .weak {
+    border: crimson 2px solid;
+}
+
+.form-container .medium {
+    border: gray 2px solid;
+}
+
+.form-container .strong {
+    border: green 2px solid;
+}
+
+input:focus {
+    outline: none;
+    border-color: initial;
+    box-shadow: none;
+}
+
+.social-buttons button:hover {
+    text-decoration: underline;
+    transition: .3s ease;
+}
+
+.forgotpass:hover {
+    text-decoration: underline;
+    transition: .3s ease;
+}
+
+.error-message {
+    color: crimson;
+}

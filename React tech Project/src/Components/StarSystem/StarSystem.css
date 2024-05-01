@@ -1,0 +1,16 @@
+.star {
+    width: 15px;
+    height: 15px;
+}
+
+.star.gold {
+    fill: gold;
+}
+
+.star.silver {
+    fill: silver;
+}
+
+.star.bronze {
+    fill: #cd7f32;
+}

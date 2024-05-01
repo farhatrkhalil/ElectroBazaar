@@ -1,0 +1,125 @@
+#CartContainer {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: #434343;
+}
+
+#CartContainer h1 {
+    font-weight: 500;
+}
+
+#CartContainer h1 {
+    font-size: 1.8rem;
+    align-self: self-start;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:600px) {
+    #CartContainer h1 {
+        font-size: 1.4rem;
+    }
+
+    #CartContainer .Proceedbtn {
+        font-size: .8rem;
+    }
+}
+
+.Cartitemhead p {
+    word-wrap: break-word;
+}
+
+.Cartitem {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 99%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible;
+}
+
+#CartContainer .removecart {
+    width: 15px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 2px;
+    opacity: .6;
+    position: absolute;
+    right: 10px;
+    top: -13px;
+    cursor: pointer;
+}
+
+.Cartitemhead .imgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 10%;
+    flex: 1;
+    height: 80px;
+    min-width: 100px;
+}
+
+.Cartitemhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.Cartitemhead img {
+    width: 70%;
+    height: auto;
+    max-width: 40px;
+}
+
+.Proceedbtn {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bolder;
+    max-width: 380px;
+    width: 100%;
+    background-color: #434343;
+    font-size: 1rem;
+}
+
+@media screen and (min-width:700px) {
+    .Proceedbtn {
+        padding: 12px 10px;
+    }
+}
+
+.my_product_info {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartremove {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.subtotoalcart {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    padding: 15px 0;
+}

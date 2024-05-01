@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    z-index: -1;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.paddingforsections {
+    padding: 0 70px;
+}
+
+@media screen and (max-width:1000px) {
+    .paddingforsections {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .paddingforsections {
+        padding: 0 20px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}

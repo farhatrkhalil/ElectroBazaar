@@ -1,0 +1,110 @@
+#FlashSaleCount-root {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.FlashCountDown {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 20px;
+    width: 100%;
+}
+
+.FlashCountDown .Countdown {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 8px;
+    font-size: 1.7rem;
+    overflow-x: visible;
+    flex: 2;
+}
+
+.FlashCountDown .Countdown h6 {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.navigateSection {
+    display: none;
+}
+
+.navigateSection img {
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 50px;
+    width: 10px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .FlashCountDown {
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .FlashCountDown .Countdown h6 {
+        font-size: .6rem;
+    }
+    .FlashCountDown .Countdown {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .FlashCountDown {
+        font-weight: 600;
+    }
+    .FlashCountDown .Countdown h6 {
+        font-size: .5rem;
+    }
+    #FlashSaleCount-root {
+        font-size: 1.3rem;
+    }
+    p {
+        font-size: smaller;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .navigateSection {
+        justify-self: flex-end;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        overflow-x: visible;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+.navigateSection img {
+    cursor: pointer;
+    transition: .3s ease;
+    border: solid 2px #b8aeae;
+}
+
+.navigateSection img:hover {
+    transform: scale(0.95);
+    transition: .3s ease;
+    border: solid 2px rgb(220, 123, 123);
+}
+
+.categories-container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.categories {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,39 @@
+#ShopNowList {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 40px 0;
+    gap: 20px;
+    width: 100%;
+}
+
+#ShopNowList .List-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: max-content;
+}
+
+#ShopNowList .List-2 div {
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    #ShopNowList {
+        flex-wrap: wrap;
+        font-size: smaller;
+    }
+    #ShopNowList .List-2 {
+        flex-wrap: nowrap;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    #ShopNowList .List-2 {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,15 @@
+#Viewallbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#Viewallbtn button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #DB4444;
+    color: #fff;
+}

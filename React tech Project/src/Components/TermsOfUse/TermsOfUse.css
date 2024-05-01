@@ -1,0 +1,74 @@
+.PrivacyBanner {
+    background-image: url("assets/Imgs/PrivacyPolicy/BannerBackground.png");
+    color: white;
+    display: flex;
+    border-radius: 20px;
+}
+
+.privacy_title_container {
+    width: 50%;
+    text-align: center;
+    padding: 5%;
+}
+
+.privacy_image_container img {
+    width: 65%;
+    padding: 4%;
+}
+
+.card-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    border-radius: 20px;
+    z-index: 9999;
+}
+
+.left-image-container img,
+.right-image-container img {
+    position: absolute;
+    width: 900px;
+    height: auto;
+    margin: 10px;
+    z-index: 2;
+}
+
+.left-image-container2 img,
+.right-image-container img {
+    position: absolute;
+    width: 1200px;
+    height: auto;
+    margin: 10px;
+    z-index: 2;
+    top: 40%;
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1200px) {
+    .left-image-container img,
+    .left-image-container2 img,
+    .right-image-container img {
+        display: none;
+    }
+    .privacy_image_container img {
+        width: 63%;
+        padding-left: 19%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .privacy_title_container h1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .privacy_image_container {
+        display: none;
+    }
+    .privacy_title_container {
+        padding-left: 25%;
+    }
+}

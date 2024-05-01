@@ -1,0 +1,150 @@
+#card-root {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 15px;
+    width: 200px;
+    overflow: visible;
+    min-height: 350px;
+    max-height: 380px;
+}
+
+#card-root .cardImage {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    flex: 2;
+    overflow: hidden;
+}
+
+#card-root .cardImage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+#card-root .cardImage:hover::before {
+    border-color: rgb(220, 123, 123);
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+#card-root .imgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+#card-root .cardImage .cardFeature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    gap: 5px;
+}
+
+#card-root .cardImage .cardFeature div {
+    padding: 4px;
+    background-color: #DB4444;
+    padding: 5px 8px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+#card-root .cardImage div {
+    font-size: .8rem;
+}
+
+#card-root .cardImage img {
+    width: 70%;
+    height: auto;
+    overflow: visible;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1;
+}
+
+.cardContent div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: .8rem;
+}
+
+.cardContent div img {
+    width: 10%;
+    height: auto;
+}
+
+.cardContent p {
+    color: gray;
+    overflow: hidden;
+}
+
+#card-root .cardAction {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+#card-root .cardAction img {
+    width: 20px;
+    height: auto;
+}
+
+#card-root button {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s ease;
+    transform: scale(1);
+}
+
+#card-root .addtocart:hover {
+    transform: scale(0.95);
+    transition: .3s ease;
+}
+
+@media screen and (max-width:600px) {
+    .cardContent {
+        font-size: .8rem;
+    }
+    #card-root .cardAction img {
+        width: 18px;
+    }
+    #card-root button {
+        font-size: .8rem;
+        padding: 8px 0;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #card-root .cardImage .cardFeature div {
+        font-size: .7rem;
+    }
+}

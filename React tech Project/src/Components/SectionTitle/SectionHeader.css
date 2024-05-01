@@ -1,0 +1,30 @@
+    #SectionTitle-root {
+        width: 100%;
+    }
+    
+    #SectionTitle-root #HeadTitle {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        color: #DB4444;
+        padding: 15px 0;
+    }
+    
+    #SectionTitle-root #HeadTitle span {
+        height: 40px;
+        background-color: #DB4444;
+        width: 15px;
+        border-radius: 5px;
+    }
+    
+    @media screen and (max-width:600px) {
+        #SectionTitle-root #HeadTitle span {
+            height: 30px;
+            width: 10px;
+        }
+        #SectionTitle-root #HeadTitle {
+            font-size: 0.9rem;
+            gap: 10px;
+        }
+    }

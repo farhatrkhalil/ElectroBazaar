@@ -1,0 +1,82 @@
+    #EditProfile {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        min-height: 50dvh;
+        padding: 40px 0;
+        flex-wrap: wrap;
+    }
+    
+    #EditProfile h4 {
+        font-size: 1.2rem;
+    }
+    
+    #EditProfile .EditProfileWrap {
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+        gap: 30px;
+    }
+    
+    #EditProfile .Options {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        overflow-x: visible;
+        width: 45%;
+        max-width: 400px;
+    }
+    
+    #EditProfile .Options h4 {
+        margin-bottom: 20px;
+    }
+    
+    #EditProfile .Options .form-group {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        overflow-x: visible;
+    }
+    
+    #EditProfile input {
+        height: 20px;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 1rem;
+        background-color: #F5F5F5F5;
+        border: none;
+        width: 100%;
+        box-sizing: border-box;
+        height: 40px;
+    }
+    
+    #EditProfile a {
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #DB4444;
+        color: #fff;
+        align-self: flex-end;
+    }
+    
+    @media screen and (max-width:650px) {
+        #EditProfile .Options {
+            width: 80%;
+        }
+        #EditProfile {
+            gap: 40px;
+        }
+        #EditProfile input {
+            font-size: .8rem;
+        }
+        #EditProfile label {
+            font-size: .9rem;
+        }
+    }
