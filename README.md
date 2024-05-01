@@ -8,9 +8,7 @@ The project is aimed at creating a seamless online shopping experience for tech 
 
 ## Team Members
 
-Khalil Farhat 
-Abdallah Hijazi 
-
+Khalil Farhat-Abdallah Hijazi 
 
 ## Features
 
