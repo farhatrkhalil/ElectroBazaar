@@ -14,7 +14,7 @@
 
 * **Frontend:** React.js (Component-based architecture)
 * **Backend/BaaS:** Firebase (Authentication, Database, and Hosting)
-* **Styling:** Modular CSS / Tailwind (Optional - adjust if used)
+* **Styling:** Modular CSS / Tailwind 
 * **Version Control:** Git/GitHub
 
 ## 📋 Key Modules
